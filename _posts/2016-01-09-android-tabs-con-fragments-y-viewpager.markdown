@@ -5,7 +5,7 @@ layout: post
 tags: [Android, Tabs, Fragments, ViewPager, TabLayout, FragmentPagerAdapter]
 categories: [Android]
 ---
-Este código es para crear Tabs en Android, utilizando Fragments y ViewPager. Antes de empezar hay que configurar el build.gradle de Android Studio como se indica en esta página: https://goo.gl/C6a8EA
+Este código es para crear Tabs en Android, utilizando Fragments y ViewPager. Antes de empezar hay que configurar el build.gradle de Android Studio como se indica en la página de <a href="https://goo.gl/C6a8EA">CodePath</a>.
 
 Primero de todo, creamos en el xml principal <b>"activity_main.xml"</b> el TabLayout que serán las pestañas y el ViewPager que nos servirá para mostrar otros layouts según cambiemos de pestaña.
 
