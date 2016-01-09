@@ -131,7 +131,6 @@ Y luego creamos <b>"TabEmpezar.java"</b>, heredando de fragment e implementando 
 
 {% highlight java %}
 public class TabEmpezar extends Fragment implements View.OnClickListener {
-    public static final String KEY_PAGE = "Tab1";
     private Button btn_sesion, btn_resetPassword;
 
     @Override
@@ -202,5 +201,3 @@ public class Tabs_Bar extends FragmentPagerAdapter {
 Ya está. Con esto terminaríamos, y quedaría de esta manera:
 
 ![](http://i.imgsafe.org/4360afe.png)
-
-
