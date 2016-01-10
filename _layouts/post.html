@@ -11,7 +11,7 @@ layout: default
 <div class="categories-list">
   {% for category in page.categories %}
   <span class="entry-categories">
-    <a href="{{ site.url }}/{{ page.category-url }}/" rel="category">{{ page.category }}</a>
+    <a href="{{ site.url }}/{{ page.category-url }}/" rel="category">{{ post.category }}</a>
   </span>
   {% endfor %}
 </div>
