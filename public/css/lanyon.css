@@ -330,8 +330,8 @@ a.sidebar-nav-item:focus {
   margin-top: 0;
   font-weight: bold;
 }
-.page-title:hover, .page-title:active,
-.post-title:hover, .post-title:active {
+.page-title:hover a, .page-title:active a,
+.post-title:hover a, .post-title:active a {
   text-decoration:none;
 }
 
