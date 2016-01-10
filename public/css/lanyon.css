@@ -234,18 +234,17 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-toggle:before {
-  display: block;
-  content: "";
-  width: 100%;
-  padding-bottom: .125rem;
-  border-top: .375rem double;
-  border-bottom: .125rem solid;
-
-  /* Make the border inside the box */
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    display: block;
+    content: "";
+    width: 100%;
+    padding-bottom: 3px;
+    border-top: 7px double;
+    border-bottom: 2px solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -262,9 +261,9 @@ a.sidebar-nav-item:focus {
     width: 2.60rem;
   }
   .sidebar-toggle:before {
-    padding-bottom: 0.25rem;
-    border-top-width: .50rem;
-    border-bottom-width: .25rem;
+    padding-bottom: 3px;
+    border-top-width: 7px;
+    border-bottom-width: .15rem;
   }
 }
 
