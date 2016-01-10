@@ -1,7 +1,0 @@
----
-published: true
-title: Test
-layout: post
-categories: [mola, mucho, //, ono]
----
-Test
