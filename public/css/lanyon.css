@@ -216,11 +216,11 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  1rem;
+  top: .8rem;
   left: 1rem;
   display: block;
   width: 2.2rem;
-  padding: .5rem .65rem;
+  padding: .6rem .65rem;
   color: #1A1C30;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 4px;
@@ -249,11 +249,11 @@ a.sidebar-nav-item:focus {
 @media (min-width: 30.1rem) {
   .sidebar-toggle {
     position: fixed;
-    width: 2.90rem;
+    width: 2.60rem;
   }
   .sidebar-toggle:before {
     padding-bottom: 0.25rem;
-    border-top-width: .65rem;
+    border-top-width: .50rem;
     border-bottom-width: .25rem;
   }
 }
