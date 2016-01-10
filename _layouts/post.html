@@ -9,9 +9,9 @@ layout: default
 </div>
 
 <div class="categories-list">
-  {% for category in page.categories %}
+  {% for category in post.categories %}
   <span class="entry-categories">
-    <a href="{{ site.url }}/{{ page.category-url }}/" rel="category">{{ post.category }}</a>
+    <a href="{{ site.url }}/{{ page.category-url }}/" rel="category">{{ post.categories }}</a>
   </span>
   {% endfor %}
 </div>
