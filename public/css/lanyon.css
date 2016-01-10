@@ -226,6 +226,13 @@ a.sidebar-nav-item:focus {
   border-radius: 4px;
   cursor: pointer;
 }
+.am-menu {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    fill: #1A1C30;
+}
+/*
 .sidebar-toggle:before {
   display: block;
   content: "";
@@ -234,16 +241,19 @@ a.sidebar-nav-item:focus {
   border-top: .375rem double;
   border-bottom: .125rem solid;
 
-  /* Make the border inside the box */
+  / Make the border inside the box /
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}
+} */
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
   background-color: #1A1C30;
+}
+.am-menu:active {
+    fill: #FFF;
 }
 
 @media (min-width: 30.1rem) {
