@@ -232,7 +232,7 @@ a.sidebar-nav-item:focus {
     padding: 0px;
     fill: #1A1C30;
 }
-/*
+
 .sidebar-toggle:before {
   display: block;
   content: "";
@@ -245,7 +245,7 @@ a.sidebar-nav-item:focus {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-} */
+}
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
