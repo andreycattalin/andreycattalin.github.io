@@ -2,6 +2,6 @@
 published: true
 title: Test
 layout: post
-categories: [mola]
+categories: [mola, mucho]
 ---
 Test
