@@ -9,6 +9,11 @@ layout: default
 </div>
 
 <div class="categories-list">
+  {% if post %}
+  {% assign categories = post.categories %}
+{% else %}
+  {% assign categories = categories %}
+{% endif %}
   {% for category in page.categories %}
   <span class="entry-categories">
     <a href="{{ site.url }}/{{ page.category-url }}/" rel="category">{{ page.category }}</a>
