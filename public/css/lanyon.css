@@ -17,6 +17,7 @@
 /*
  * Contents
  *
+ * Fonts
  * Global resets
  * Masthead
  * Sidebar
@@ -26,7 +27,12 @@
  * Reverse layout
  * Themes
  */
-
+ 
+/*
+ * Fonts
+ *
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,600italic,700,700italic);
 
 /*
  * Global resets
@@ -41,11 +47,11 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Open Sans", "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -213,7 +219,7 @@ a.sidebar-nav-item:focus {
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
-  color: #fff;
+  color: #1A1C30;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 4px;
   cursor: pointer;
