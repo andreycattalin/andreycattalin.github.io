@@ -323,7 +323,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #2B2D35;
 }
 .page-title,
 .post-title {
@@ -333,6 +333,7 @@ a.sidebar-nav-item:focus {
 .page-title:hover a, .page-title:active a,
 .post-title:hover a, .post-title:active a {
   text-decoration:none;
+  color: #515565;
 }
 
 /* Meta data line below post title */
