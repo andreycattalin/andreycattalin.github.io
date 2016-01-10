@@ -200,4 +200,4 @@ public class Tabs_Bar extends FragmentPagerAdapter {
 
 Ya está. Con esto terminaríamos, y quedaría de esta manera:
 
-![](http://i.imgsafe.org/4360afe.png)
+![](https://i.imgsafe.org/4360afe.png)
