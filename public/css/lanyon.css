@@ -241,7 +241,7 @@ a.sidebar-nav-item:focus {
   border-top: .375rem double;
   border-bottom: .125rem solid;
 
-  / Make the border inside the box /
+  /* Make the border inside the box */
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -267,23 +267,6 @@ a.sidebar-nav-item:focus {
     border-bottom-width: .25rem;
   }
 }
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 3px;
-  width: 35px;
-  background: white;
-  position: absolute;
-  display: block;
-  content: '';
-}
-#nav-toggle span:before {
-  top: -10px;
-}
-#nav-toggle span:after {
-  bottom: -10px; 
-}
-
 
 /* Slide effect
  *
