@@ -200,7 +200,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48rem) {
   .sidebar-item {
     padding: 1.5rem;
-    font-size: 17px;
+    font-size: 13px;
   }
   .sidebar-nav-item {
     padding-left:  1.5rem;
@@ -249,12 +249,12 @@ a.sidebar-nav-item:focus {
 @media (min-width: 30.1rem) {
   .sidebar-toggle {
     position: fixed;
-    width: 2.25rem;
+    width: 2.90rem;
   }
   .sidebar-toggle:before {
-    padding-bottom: .15rem;
-    border-top-width: .45rem;
-    border-bottom-width: .15rem;
+    padding-bottom: 0.25rem;
+    border-top-width: .65rem;
+    border-bottom-width: .25rem;
   }
 }
 
