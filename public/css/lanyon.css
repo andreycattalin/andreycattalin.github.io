@@ -328,6 +328,11 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title {
   margin-top: 0;
+  font-weight: bold;
+}
+.page-title:hover, .page-title:active,
+.post-title:hover, .post-title:active {
+  text-decoration:none;
 }
 
 /* Meta data line below post title */
