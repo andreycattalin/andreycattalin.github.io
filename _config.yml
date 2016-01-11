@@ -6,3 +6,13 @@ title: Andrey Cattalin
 tagline: A log of everyday life
 description: My awesome new site
 paginate: 5
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
