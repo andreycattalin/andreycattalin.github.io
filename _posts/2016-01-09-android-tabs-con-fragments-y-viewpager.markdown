@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Obtiene el ViewPager y establece su PagerAdapter para que pueda mostrar los elementos
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-        viewPager.setAdapter(new Tabs_Bar(this.getSupportFragmentManager(), this));
+        viewPager.setAdapter(new Tabs_Bar(this.getSupportFragmentManager()));
 
         // Pasa el TabLayout al ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
