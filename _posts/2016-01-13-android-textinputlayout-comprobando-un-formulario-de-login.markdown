@@ -1,6 +1,6 @@
 ---
 published: true
-title: Android TextInputLayout - Comprobando un formulario de login 
+title: Android TextInputLayout - Comprobando un formulario de login
 layout: post
 tags: [TextInputLayout]
 categories: [Android]
