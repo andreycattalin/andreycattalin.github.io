@@ -6,6 +6,8 @@ title: Andrey Cattalin
 tagline: A log of everyday life
 description: My awesome new site
 paginate: 5
+gems:
+  - jekyll-sitemap
 sitemap:
     file: "/sitemap.xml"
     exclude:
